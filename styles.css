@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0c0f0f;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .a {
+    color: azure;
+  }
+  nav ul {
+    list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: #fcf5f5;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    text-align: center;
+    color: rgb(233, 240, 240);
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .p{
+    text-align: justify;
+  }
+ 
+  .project {
+    margin: 20px 0;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
