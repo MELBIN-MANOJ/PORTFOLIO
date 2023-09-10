@@ -1,8 +1,10 @@
-// Add an active class to the current navigation link
-const currentPage = location.pathname.split('/').slice(-1)[0];
-const navLinks = document.querySelectorAll('nav ul li a');
-navLinks.forEach(link => {
-  if (link.getAttribute('href') === currentPage) {
-    link.classList.add('active');
-  }
+
+});window.addEventListener('DOMContentLoaded', function() {
+    if (window.innerWidth < 768) {
+        // Code for small devices (e.g., mobile phones)
+    } else if (window.innerWidth >= 768 && window.innerWidth < 992) {
+        // Code for tablets
+    } else {
+        // Code for larger screens (e.g., desktops)
+    }
 });
